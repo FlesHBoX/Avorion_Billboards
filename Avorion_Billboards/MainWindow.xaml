@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Avorion_Billboards"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="MainWindow" Height="125  " Width="400">
+    <Grid Margin="0,0,2,0">
+        <Label Content="Select image to use" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="input_Image" HorizontalAlignment="Left" Height="23" Margin="90,33,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="283"/>
+        <Button x:Name="Browse_Button" Content="Browse" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="75" Click="Browse_Button_Click" Height="23"/>
+        <Button x:Name="Create_Ship" Content="Create Ship" HorizontalAlignment="Left" Margin="298,61,0,0" VerticalAlignment="Top" Width="75" Click="Create_Ship_Click"/>
+
     </Grid>
 </Window>
